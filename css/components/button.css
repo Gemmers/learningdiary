@@ -1,0 +1,15 @@
+.btn-custom {
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  z-index: 1;
+  background: transparent;
+  transition: background 0.5s; /* Ajout d'une transition pour une animation fluide */
+}
+
+.btn-custom:hover {
+  color: whitesmoke;
+  border: 1px solid whitesmoke;
+  background-color: olivedrab; /* Utilisation directe de la couleur olivedrab */
+  cursor: pointer;
+}

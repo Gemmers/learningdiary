@@ -1,0 +1,11 @@
+.custom-width {
+  width: 46px;
+  border: dashed 1px #556B2F;
+  border-radius: 25px;
+}
+
+.card > img {
+  position: absolute;
+  right: 12px;
+  bottom: 12px;
+}

@@ -1,57 +1,93 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Learning diary</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="icon" href="https://res.cloudinary.com/dffprntmt/image/upload/v1715629188/favicon_ombyds.ico" type="image/x-icon">
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-
 </head>
 <body>
 
-  <div class="main-container">
+  <div class="sidebar">
+    <svg width="200" height="220" xmlns="http://www.w3.org/2000/svg">
+      <!-- branches -->
+      <path d="M180,210 Q160,170 88,101" fill="none" stroke="brown" stroke-width="2"/>
+      <path d="M152,169 Q155,170 168,145" fill="none" stroke="brown" stroke-width="1"/>
+      <path d="M111,124 Q42,145 39,169" fill="none" stroke="brown" stroke-width="1"/>
+      <path d="M88,102 Q101,73 106,79" fill="none" stroke="brown" stroke-width="1"/>
 
-    <div class="banner">
+      <!-- Olives -->
+      <circle cx="166" cy="145" r="3" fill="black"/>
+      <circle cx="55" cy="147" r="3" fill="black"/>
+      <circle cx="98" cy="83" r="3" fill="black"/>
 
-      <h1>Mon journal d'apprentissage</h1>
-      <h4>Je vous partage mes dernières découvertes</h4>
-      <h6>Cliquez ci-dessous pour accéder à mon CV</h6>
-      <a href="https://gemmers.github.io/profile/" target="_blank">Mon resume</a>
-
-    </div>
-
-    <div class="cards-container">
-
-        <div class="card">
-          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle" style="width: 56px;" alt="Avatar">
-          <i class="fa-solid fa-tag" style="color: #556B2F;"></i>
-          <h4>Découverte: Comment coder du SVG</h4>
-          <p>initiation aux chemins de vecteurs</p>
-        </div>
-        <div class="card">
-          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle" style="width: 56px;" alt="Avatar">
-          <i class="fa-solid fa-tag" style="color: #556B2F;"></i>
-          <h4>Comment créer un univers en VR avec A_frame</h4>
-          <p>En seulement quelques lignes de code</p>
-        </div>
-        <div class="card">
-          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle" style="width: 56px;" alt="Avatar">
-          <i class="fa-solid fa-tag" style="color: #556B2F;"></i>
-          <h4>La Blockchain à quoi ça sert ?</h4>
-          <p>Petite introduction sur son utilité</p>
-        </div>
-
-    </div>
-
+      <!-- Feuilles -->
+      <path d="M153,171 Q150,165 147,147" fill="green" stroke="none"/>
+      <path d="M168,144 Q170,135 198,112" fill="green" stroke="none"/>
+      <path d="M87,129 Q85,130 78,105" fill="green" stroke="none"/>
+      <path d="M65,137 Q60,141 42,113" fill="green" stroke="none"/>
+      <path d="M67,140 Q60,130 34,121" fill="green" stroke="none"/>
+      <path d="M91,96 Q97,85 103,59" fill="green" stroke="none"/>
+      <path d="M92,75 Q85,74 74,42" fill="green" stroke="none"/>
+    </svg>
+    <h2>Mon petit journal</h2>
+    <h6>Je m'appelle Sylvain Bohrer et je suis un développeur web passionné par les nouvelles technologies.
+      Je vous partage mes découvertes et mes apprentissages sur ce blog. Bonne lecture !
+    </h6>
+    <a href="https://gemmers.github.io/profile/" target="_blank" class="btn btn-custom">Mon résumé</a>
   </div>
 
+  <div class="container">
+    <div class="fakesidebar"></div>
+    <div class="main-content">
+      <div class="card">
+        <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+        <a><i class="fa-solid fa-tag">svg</i></a>
+        <h4>Comment coder du SVG</h4>
+        <p>Dessinez des formes complexes avec du code et pourquoi est-ce recommandé</p>
+        <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+      </div>
+      <div class="card">
+        <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+        <a><i class="fa-solid fa-tag">javascript</i></a>
+        <h4>Comment créer un univers en VR avec A_frame</h4>
+        <p>En seulement quelques lignes de code</p>
+        <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+      </div>
+      <div class="card">
+        <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+        <a><i class="fa-solid fa-tag">web3</i></a>
+        <h4>Découverte : La Blockchain à quoi ça sert ?</h4>
+        <p>Petite introduction sur son utilité</p>
+        <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+      </div>
+      <div class="card">
+        <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+        <a><i class="fa-solid fa-tag">css</i></a>
+        <h4>Dessiner avec du CSS</h4>
+        <p>Une astuce pour des icônes toujours plus légères</p>
+        <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+      </div>
+      <div class="card">
+        <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+        <a><i class="fa-solid fa-tag">api</i></a>
+        <h4>Créer son propre univers avec Cesium ion</h4>
+        <p>Un outil participatif</p>
+        <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+      </div>
+      <div class="card">
+        <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+        <a><i class="fa-solid fa-tag">html</i></a>
+        <h4>Les balises HTML personnalisées</h4>
+        <p>&lt;sous-titre&gt;Pour un code plus court et plus lisible&lt;/sous-titre&gt;</p>
+        <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>

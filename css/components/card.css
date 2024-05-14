@@ -5,8 +5,3 @@
   margin: 5px;
   position: relative;
 }
-
-.card > img {
-  position: absolute;
-  right: 12px;
-}

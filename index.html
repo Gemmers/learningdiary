@@ -34,6 +34,7 @@
       <path d="M91,96 Q97,85 103,59" fill="green" stroke="none"/>
       <path d="M92,75 Q85,74 74,42" fill="green" stroke="none"/>
     </svg>
+    <a href="#home" class="btn btn-custom" title="home"><i class="fa-solid fa-house"></i> Sommaire</a>
     <h2>Mon petit journal</h2>
     <h6>Je m'appelle Sylvain Bohrer et je suis un développeur web passionné par les nouvelles technologies.
       Je vous partage mes découvertes et mes apprentissages sur ce blog. Bonne lecture !
@@ -44,47 +45,143 @@
   <div class="container">
     <div class="fakesidebar"></div>
     <div class="main-content">
-      <div class="card">
+      <a href="#article1">
+        <div class="card">
+          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+          <i id="home" class="fa-solid fa-tag">svg</i>
+          <h4>Comment coder du SVG</h4>
+          <p>Dessinez des formes complexes avec du code et pourquoi est-ce recommandé</p>
+          <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+        </div>
+      </a>
+      <a href="#article2">
+        <div class="card">
+          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+          <i class="fa-solid fa-tag">javascript</i>
+          <h4>Comment créer un univers en VR avec A_frame</h4>
+          <p>En seulement quelques lignes de code</p>
+          <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+        </div>
+      </a>
+      <a href="#article3">
+        <div class="card">
+          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+          <i class="fa-solid fa-tag">web3</i>
+          <h4>Découverte : La Blockchain à quoi ça sert ?</h4>
+          <p>Petite introduction sur son utilité</p>
+          <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+        </div>
+      </a>
+      <a href="#article4">
+        <div class="card">
+          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+          <i class="fa-solid fa-tag">css</i>
+          <h4>Dessiner avec du CSS</h4>
+          <p>Une astuce pour des icônes toujours plus légères</p>
+          <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+        </div>
+      </a>
+      <a href="#article5">
+        <div class="card">
+          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+          <i class="fa-solid fa-tag">api</i>
+          <h4>Créer son propre univers avec Cesium ion</h4>
+          <p>Un outil participatif</p>
+          <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+        </div>
+      </a>
+      <a href="#article6">
+        <div class="card">
+          <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
+          <i class="fa-solid fa-tag">html</i>
+          <h4>Les balises HTML personnalisées</h4>
+          <p>&lt;sous-titre&gt;Pour un code plus court et plus lisible&lt;/sous-titre&gt;</p>
+          <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div id="home" class="fakesidebar"></div>
+    <div class="main-content">
+      <div class="card article">
         <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
-        <a><i class="fa-solid fa-tag">svg</i></a>
+        <i id="article1" class="fa-solid fa-tag">svg</i>
         <h4>Comment coder du SVG</h4>
-        <p>Dessinez des formes complexes avec du code et pourquoi est-ce recommandé</p>
+        <p>Le SVG, acronyme de Scalable Vector Graphics, est un format d'image vectorielle largement utilisé sur le web pour créer des graphiques et des illustrations. Contrairement aux formats d'image raster comme le JPEG ou le PNG, le SVG est basé sur des formules mathématiques plutôt que sur des pixels, ce qui signifie qu'il peut être redimensionné à n'importe quelle taille sans perte de qualité.
+
+          Pour commencer à coder en SVG, vous aurez besoin d'un éditeur de texte simple tel que Notepad (sur Windows) ou TextEdit (sur Mac). Les fichiers SVG sont simplement des fichiers texte contenant des balises XML qui décrivent les formes et les styles des éléments graphiques.
+
+          La balise &lt;svg&gt; est la balise racine de tout fichier SVG. À l'intérieur de cette balise, vous pouvez ajouter des formes telles que des cercles, des rectangles, des lignes, des chemins, etc. Par exemple, pour créer un cercle, vous pouvez utiliser la balise &lt;circle&gt; avec les attributs cx et cy pour spécifier les coordonnées du centre, et r pour spécifier le rayon.
+
+          Les styles peuvent être appliqués aux éléments SVG à l'aide d'attributs comme fill pour la couleur de remplissage, stroke pour la couleur de contour et stroke-width pour spécifier l'épaisseur du contour.</p>
         <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
       </div>
-      <div class="card">
+      <div class="card article">
         <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
-        <a><i class="fa-solid fa-tag">javascript</i></a>
+        <i id="article2" class="fa-solid fa-tag">javascript</i>
         <h4>Comment créer un univers en VR avec A_frame</h4>
-        <p>En seulement quelques lignes de code</p>
+        <p>Voici comment vous pouvez utiliser A-Frame pour créer votre propre univers VR :
+
+          Pour commencer, assurez-vous d'inclure la bibliothèque A-Frame dans votre projet en ajoutant la ligne suivante dans l'en-tête de votre fichier HTML :
+          &lt;script src="https://aframe.io/releases/1.3.0/aframe.min.js"&gt;&lt;/script&gt;
+          Ensuite, créez votre scène VR en utilisant la balise &lt;a-scene&gt;. À l'intérieur de cette balise, vous pouvez ajouter différents éléments pour construire votre univers :
+          &lt;div id="scene-container"&gt;
+          &lt;a-scene background="color: #000" embedded&gt;
+                    <!-- Terre -->
+                    &lt;a-sphere radius="5" position="0 0 -10" color="#00ff00"&gt;&lt;/a-sphere&gt;
+                    <!-- Lune -->
+                    &lt;a-sphere radius="1" position="5 0 -10" color="#aaaaaa"&gt;&lt;/a-sphere&gt;
+                    <!-- Soleil -->
+                    &lt;a-sphere radius="10" position="10 10 -50" color="#ffcc00"&gt;&lt;/a-sphere&gt;
+                    <!-- Lumière Soleil -->
+                    &lt;a-light type="directional" position="10 10 -50" intensity="2" color="#FFF" target="#earth"&gt;&lt;/a-light&gt;
+                    <!-- Ciel étoilé univers voie lactée -->
+                    &lt;a-sky color="#000"&gt;&lt;/a-sky&gt;
+                    <!-- Ombres -->
+                    &lt;a-entity light="type: ambient; color: #555"&gt;&lt;/a-entity&gt;
+                    &lt;/a-scene&gt;
+                    &lt;/div&gt;
+          Personnalisez ensuite votre univers en ajustant les propriétés des éléments, telles que la taille, la position, la couleur et la texture. Par exemple, vous pouvez modifier le rayon et la couleur des sphères pour représenter différentes planètes, ajuster l'intensité et la couleur des lumières pour créer des effets visuels réalistes, et ajouter des textures pour donner du réalisme à votre scène.
+        </p>
         <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
       </div>
-      <div class="card">
+      <div class="card article">
         <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
-        <a><i class="fa-solid fa-tag">web3</i></a>
+        <i id="article3" class="fa-solid fa-tag">web3</i>
         <h4>Découverte : La Blockchain à quoi ça sert ?</h4>
-        <p>Petite introduction sur son utilité</p>
+        <p>La blockchain peut être définie comme un registre numérique décentralisé et sécurisé. Contrairement aux bases de données traditionnelles centralisées, la blockchain fonctionne sur un réseau distribué, où chaque transaction est enregistrée de manière transparente et immuable sur un ensemble de nœuds interconnectés.
+
+          La force de la blockchain réside dans sa résistance à la fraude et à la manipulation. Chaque transaction est sécurisée grâce à des techniques cryptographiques avancées et est ajoutée à un bloc, qui est ensuite relié de manière sécurisée aux blocs précédents, formant ainsi une chaîne de blocs.
+
+          Cette technologie révolutionnaire trouve des applications dans divers domaines, allant de la finance à la logistique, en passant par la santé et l'immobilier. Elle permet notamment de faciliter les transactions financières rapides et peu coûteuses, de tracer l'origine des produits tout au long de la chaîne d'approvisionnement, de sécuriser les dossiers médicaux et même de faciliter les échanges de propriétés.</p>
         <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
       </div>
-      <div class="card">
+      <div class="card article">
         <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
-        <a><i class="fa-solid fa-tag">css</i></a>
+        <i id="article4" class="fa-solid fa-tag">css</i>
         <h4>Dessiner avec du CSS</h4>
-        <p>Une astuce pour des icônes toujours plus légères</p>
+        <p>Dessiner avec CSS offre une flexibilité et une légèreté qui peuvent être très avantageuses dans le développement web. En utilisant des propriétés telles que border-radius, background, linear-gradient et box-shadow, il est possible de créer une grande variété de formes, motifs et effets visuels sans avoir besoin d'utiliser des images. Par exemple, un simple div peut être transformé en un cercle coloré avec border-radius: 50%, ou en un bouton stylisé avec background et box-shadow. En adoptant cette approche, non seulement vous réduisez la dépendance aux ressources externes, mais vous améliorez également les performances de votre site en réduisant le temps de chargement et en offrant une plus grande flexibilité lors de la personnalisation de l'apparence de vos éléments.</p>
         <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
       </div>
-      <div class="card">
+      <div class="card article">
         <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
-        <a><i class="fa-solid fa-tag">api</i></a>
+        <i id="article5" class="fa-solid fa-tag">api</i>
         <h4>Créer son propre univers avec Cesium ion</h4>
-        <p>Un outil participatif</p>
+        <p>Créer votre propre univers spatial devient possible grâce à l'API Cesium ion JavaScript. En utilisant cette API puissante, vous pouvez facilement développer des applications web 3D qui offrent des expériences immersives de navigation dans l'espace. En intégrant des données géospatiales, des images satellites et d'autres contenus géoréférencés, vous pouvez donner vie à votre univers virtuel en quelques lignes de code. Que vous souhaitiez simuler des voyages interstellaires, cartographier des données géographiques complexes ou créer des environnements 3D interactifs, l'API Cesium ion vous offre les outils nécessaires pour construire un univers personnalisé à la fois captivant et réaliste. Grâce à sa facilité d'utilisation et à sa robustesse, cette API ouvre de nouvelles possibilités pour les développeurs en leur permettant de repousser les limites de l'exploration spatiale virtuelle.</p>
         <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
       </div>
-      <div class="card">
+      <div class="card article">
         <img src="https://res.cloudinary.com/dffprntmt/image/upload/v1715626790/1704673485756_unkfof.jpg" class="img-fluid rounded-circle custom-width" alt="Avatar">
-        <a><i class="fa-solid fa-tag">html</i></a>
+        <i id="article6" class="fa-solid fa-tag">html</i>
         <h4>Les balises HTML personnalisées</h4>
-        <p>&lt;sous-titre&gt;Pour un code plus court et plus lisible&lt;/sous-titre&gt;</p>
+        <p>
+          Les balises HTML personnalisées, également connues sous le nom de balises personnalisées ou Web Components, offrent une manière efficace de créer des éléments HTML réutilisables et encapsulés, qui peuvent être utilisés comme des éléments HTML standard dans vos pages web. En définissant vos propres balises avec des noms significatifs et des comportements spécifiques, vous pouvez encapsuler la logique et le style associés à ces éléments dans une seule entité, simplifiant ainsi la structure de votre code et favorisant la réutilisabilité.</p>
         <cite class="small text-muted italic">Rédigé par Sylvain Bohrer le 14-05-2024</cite>
+      </div>
+      <div class="card article">
+        <i id="article7" class="fa-solid fa-tag"></i>
       </div>
     </div>
   </div>

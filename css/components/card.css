@@ -5,3 +5,9 @@
   margin: 5px;
   position: relative;
 }
+
+.card.article {
+  height: 100vh;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}

@@ -9,3 +9,9 @@
   right: 12px;
   bottom: 12px;
 }
+
+.card.article > img {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}

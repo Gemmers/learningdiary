@@ -1,9 +1,8 @@
 .main-content {
-  /*
-  border: 2px dashed olivedrab;
-  */
+
+  /* border: 2px dashed olivedrab; */
   padding: 15px;
-  margin: 0px;
+  margin: 0px 0px 60px 0px; /* top right bottom left */
   border-radius: 5px;
   height: 100%;
   flex: 0 0 75%;

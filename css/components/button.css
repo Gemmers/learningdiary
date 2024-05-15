@@ -4,12 +4,12 @@
   border-radius: 5px;
   z-index: 1;
   background: transparent;
-  transition: background 0.5s; /* Ajout d'une transition pour une animation fluide */
+  transition: background 0.5s;
 }
 
 .btn-custom:hover {
   color: whitesmoke;
   border: 1px solid whitesmoke;
-  background-color: olivedrab; /* Utilisation directe de la couleur olivedrab */
+  background-color: olivedrab;
   cursor: pointer;
 }
